@@ -30,7 +30,7 @@ use Test::More tests => 8;
 use lib 't/lib';
 use lib 'lib';
 
-my $fase2 = 1;
+my $fase2 = 0;
 
 # load
 use_ok( 'SDLx::Sound' );
